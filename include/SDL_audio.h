@@ -296,6 +296,16 @@ extern DECLSPEC int SDLCALL SDL_GetNumAudioDrivers(void);
  * \sa SDL_GetNumAudioDrivers
  */
 extern DECLSPEC const char *SDLCALL SDL_GetAudioDriver(int index);
+
+/**
+ * Use this function to get the description of a built in audio driver.
+ *
+ * \param index the index of the audio driver; the value ranges from 0 to
+ *              SDL_GetNumAudioDrivers() - 1
+ * \returns the name of the audio driver at the requested index, or NULL if an
+ *          invalid index was specified.
+ */
+extern DECLSPEC const char *SDLCALL SDL_GetAudioDriverDescription(int index);
 /* @} */
 
 /**

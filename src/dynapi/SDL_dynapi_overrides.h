@@ -72,6 +72,7 @@
 #define SDL_AtomicGetPtr SDL_AtomicGetPtr_REAL
 #define SDL_GetNumAudioDrivers SDL_GetNumAudioDrivers_REAL
 #define SDL_GetAudioDriver SDL_GetAudioDriver_REAL
+#define SDL_GetAudioDriverDescription SDL_GetAudioDriverDescription_REAL
 #define SDL_AudioInit SDL_AudioInit_REAL
 #define SDL_AudioQuit SDL_AudioQuit_REAL
 #define SDL_GetCurrentAudioDriver SDL_GetCurrentAudioDriver_REAL

@@ -46,6 +46,7 @@
 ++'_SDL_AtomicGetPtr'.'SDL2.dll'.'SDL_AtomicGetPtr'
 ++'_SDL_GetNumAudioDrivers'.'SDL2.dll'.'SDL_GetNumAudioDrivers'
 ++'_SDL_GetAudioDriver'.'SDL2.dll'.'SDL_GetAudioDriver'
+++'_SDL_GetAudioDriverDescription'.'SDL2.dll'.'SDL_GetAudioDriverDescription'
 ++'_SDL_AudioInit'.'SDL2.dll'.'SDL_AudioInit'
 ++'_SDL_AudioQuit'.'SDL2.dll'.'SDL_AudioQuit'
 ++'_SDL_GetCurrentAudioDriver'.'SDL2.dll'.'SDL_GetCurrentAudioDriver'

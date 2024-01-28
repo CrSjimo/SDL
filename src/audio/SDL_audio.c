@@ -910,6 +910,14 @@ const char *SDL_GetAudioDriver(int index)
     return NULL;
 }
 
+const char *SDL_GetAudioDriverDescription(int index)
+{
+    if (index >= 0 && index < SDL_GetNumAudioDrivers()) {
+        return bootstrap[index]->desc;
+    }
+    return NULL;
+}
+
 int SDL_AudioInit(const char *driver_name)
 {
     int i;
